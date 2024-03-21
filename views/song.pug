@@ -4,6 +4,14 @@ html
     title Song Details
   body
     h1 Song Details
+    // Menu di navigazione
+    ul
+      li
+        a(href='/song/1') Song 1
+      li
+        a(href='/song/2') Song 2
+      li
+        a(href='/song/3') Song 3
     img(src=songData.thumbnail, alt=songData.title)
     p Song ID: #{songData.song_id}
     p Title: #{songData.title}
