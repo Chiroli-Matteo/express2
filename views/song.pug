@@ -2,6 +2,14 @@ doctype html
 html
   head
     title Song Details
+    // Aggiungi lo stile CSS
+    style.
+      .demo {
+        background: #AECE1D;
+        background: -moz-linear-gradient(left, #AECE1D 0%, #1C6EA4 60%, #C50000 100%);
+        background: -webkit-linear-gradient(left, #AECE1D 0%, #1C6EA4 60%, #C50000 100%);
+        background: linear-gradient(to right, #AECE1D 0%, #1C6EA4 60%, #C50000 100%);
+      }
   body
     h1 Song Details
     // Menu di navigazione
@@ -12,8 +20,10 @@ html
         a(href='/song/2') Song 2
       li
         a(href='/song/3') Song 3
-    img(src=songData.thumbnail, alt=songData.title)
-    p Song ID: #{songData.song_id}
-    p Title: #{songData.title}
-    p Author: #{songData.author}
-    p Lyrics: #{songData.lyrics}
+    // Aggiungi la classe demo al div che contiene i dettagli della canzone
+    div.demo
+      img(src=songData.thumbnail, alt=songData.title)
+      p Song ID: #{songData.song_id}
+      p Title: #{songData.title}
+      p Author: #{songData.author}
+      p Lyrics: #{songData.lyrics}
