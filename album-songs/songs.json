@@ -1,0 +1,26 @@
+{
+    "songs": [
+      {
+        "song_id": 1,
+        "title": "PIMP",
+        "author": "50 Cent",
+        "lyrics": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "thumbnail": "https://example.com/thumbnail1.jpg"
+      },
+      {
+        "song_id": 2,
+        "title": "Tribute",
+        "author": "Tenacious D",
+        "lyrics": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "thumbnail": "https://example.com/thumbnail2.jpg"
+      },
+      {
+        "song_id": 3,
+        "title": "still D.R.E.",
+        "author": "Dr. Dre",
+        "lyrics": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "thumbnail": "https://example.com/thumbnail3.jpg"
+      }
+    ]
+  }
+  
